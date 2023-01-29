@@ -5,9 +5,11 @@ import Contacto from "./componets/contacto";
 
 function App() {
   return (
-    <div>
+    <div class max-w-screen-md>
       <Titulo></Titulo>
-      <img class="  h-[16rem] w-[16rem]  justify-center " src={gek} />
+      
+      <img class="lg:w-16 md:w-32 lg:w-48 sm:invisible" src={gek}/>
+      
       <Contacto></Contacto>
     </div>
   );

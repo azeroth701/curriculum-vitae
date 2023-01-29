@@ -1,6 +1,6 @@
 const contacto = () => {
   return (
-    <div>
+    <div class="lg:w-16 md:w-32 lg:w-48 sm:invisible">
       <div className="  border-t-4 border-gray-500   h-[64rem] w-[16rem] bg-slate-500   h-100 w-64">
         <h5 className=" m-5 underline text-[20px] text-gray-50 text-center ">
           Educacion
